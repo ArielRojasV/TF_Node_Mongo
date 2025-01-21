@@ -23,7 +23,7 @@ productRouter.post("/", createProduct);
 // Consulta por Codigo
 productRouter.get("/:codigo", getProductByCodigo)
 
-// Actualizo Stock y Precio
+// Actualizo Atributos Producto
 productRouter.patch("/:codigo", updateProduct)
 
 // Borro Producto
