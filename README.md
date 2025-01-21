@@ -39,7 +39,7 @@ updateProduct (PATCH): Actualizar atributos de articulo. Se usa el código de ar
 
 deleteProductByCodigo (DELETE): Borro articulo de la base de datos. Se usa el código del articulo como identificador.
 
-<img src="https://github.com/user-attachments/assets/99dd73e1-3b4f-4305-a348-e2ce70020923" width="600" height="400">
+<img src="https://github.com/user-attachments/assets/99dd73e1-3b4f-4305-a348-e2ce70020923" width="500" height="300">
 
 <br/><br/>
 
