@@ -3,10 +3,10 @@
 El siguiente repositorio contiene una serie de APIs que permiten realizar las operaciones CRUD sobre una entidad de Articulos, los cuales se almacenan en una base de datos MongoDB. 
 También se crearon APIs para mostrar ciertas estadísticas sobre los datos cargados y consulta a través de queryparams. 
 El proyecto también contiene API para el Alta y la validación sencilla de credenciales de usuarios.
-Para el uso de las APIs se utiliza Tokens, que permiten manejar la seguridad de las mismas.
+
+<br/><br/>
 
 ## Configuracion de la solución
-
 
 1. Modelo de datos en MongoDB
 
@@ -16,10 +16,12 @@ Para el uso de las APIs se utiliza Tokens, que permiten manejar la seguridad de 
 
    ![image](https://github.com/user-attachments/assets/e76c5378-633e-4906-b1b4-76b609822085)
 
-
+<br/><br/>
 
 2. Realizar el clonado de este repositorio:
 `https://github.com/ArielRojasV/TF_Node_Mongo.git`
+
+<br/><br/>
 
 ## Detalle APIs
 
@@ -71,4 +73,10 @@ registerUser (POST): Alta de usuario en la base de datos, la contraseña se encr
 loginUser (POST): Valida si el email y la contraseña ya se encuentran registrados en la base de datos.
 <img src="https://github.com/user-attachments/assets/a53d480e-07cb-41f3-b424-7a65bb86ec1a" width="600" height="400">
 
+<br/><br/>
 
+## Consideraciones
+
+- Todas las operaciones realizadas sobre la entidad "productos" se validan con un Token utilizando JSON Web Tokens (JWT).
+- Se utiliza la librería Zod para validar datos ingresados.
+- Se utiliza la libreria Mongoose para la definicion del esquema de datos.
