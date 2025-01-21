@@ -61,5 +61,14 @@ getProductsWithQueryParams (GET): Devuelve los productos que cumplen ciertas con
 
 getAllProducts (GET): Devuelve todos los productos cargados en la base de datos.
 
+<br/><br/>
+
+registerUser (POST): Alta de usuario en la base de datos, la contraseña se encripta.
+<img src="https://github.com/user-attachments/assets/dbb010de-f552-46d3-8c11-3c16de9095c5" width="600" height="400">
+
+<br/><br/>
+
+loginUser (POST): Valida si el email y la contraseña ya se encuentran registrados en la base de datos.
+<img src="https://github.com/user-attachments/assets/a53d480e-07cb-41f3-b424-7a65bb86ec1a" width="600" height="400">
 
 
