@@ -23,7 +23,7 @@ Para el uso de las APIs se utiliza Tokens, que permiten manejar la seguridad de 
 
 ## Detalle APIs
 
-
+createProduct (POST): Alta de articulo en MongoDB
 ![image](https://github.com/user-attachments/assets/9c6b3679-10c8-4ef2-8806-bb63900c2ff3)
 
 
