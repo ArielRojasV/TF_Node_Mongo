@@ -7,7 +7,7 @@ const productSchemaZod = z.object({
   categoria: z.string().trim().optional().default("Sin Categoria"),  
   precio: z.number().min(1, { message: "El precio debe ser mayor a 1" }),
   stock_disponible: z.number().min(0, { message: "El stock debe ser mayor o igual a 0" }).default(0), 
-  unidad_medida: z.string({ message: "La UM es un string" }).trim().min(1, { message: "UM es campo requerido" }), 
+  unidad: z.string({ message: "La UM es un string" }).trim().min(1, { message: "La UM es campo requerido" }), 
   fecha_creacion: z.coerce.date().default(Date.now), 
 });
 
