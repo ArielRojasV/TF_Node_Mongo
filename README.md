@@ -23,6 +23,9 @@ El proyecto también contiene API para el Alta y la validación sencilla de cred
 
 <br/><br/>
 
+3. Archivo .env
+   (Se adjuntan los datos en la entrega)
+
 ## Detalle APIs
 
 createProduct (POST): Alta de articulo en MongoDB.
